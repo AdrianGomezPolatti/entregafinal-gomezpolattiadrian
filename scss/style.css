@@ -1,0 +1,516 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alfa Slab One", cursive;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  padding: 0 8%;
+}
+
+main {
+  padding: 0 8%;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-general {
+  background-color: rgb(238, 238, 238);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  box-shadow: rgb(190, 190, 190) 0px 14px 18px 5px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: orangered;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.tituloCard {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafoCard {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* GENERAL*/
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sectionPortada {
+  margin: 5px;
+  padding: 5px;
+  border: solid 5px;
+  color: black;
+}
+
+/* PRODUCTOS*/
+.image {
+  opacity: 1;
+  width: 100%;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+/* INDEX*/
+.text {
+  color: black;
+  font-size: 30px;
+  padding: 16px 32px;
+}
+
+.loremIndex {
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  border: solid;
+}
+
+.parrafoIndex {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* GENERAL */
+.tituloGeneral {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+/* INDEX */
+.TituloIndex {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloLorem {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  color: orangered;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PRODUCTOS*/
+.TablaTitulo {
+  border: solid black 5px;
+  color: orangered;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+  .containerFooter {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .tituloLorem {
+    font-size: 20px;
+  }
+  .parrafoIndex {
+    font-size: 14px;
+  }
+  .seguinosRedesSociales {
+    flex-direction: column;
+    font-size: medium;
+  }
+  .TituloIndex {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .tituloVideo {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .VideoYoutube {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+  }
+  .fotoClientePortada {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+  }
+  .Puntaje {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 5px;
+    align-items: center;
+  }
+  header {
+    padding: 0;
+  }
+  main {
+    padding: 0;
+  }
+  .tituloGeneral {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .container-general {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/*CONTAINER FOOTER */
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.containerFooter h5 {
+  padding: 10px;
+}
+
+#mail {
+  color: rgba(249, 66, 0, 0.887);
+}
+
+/* HEADER */
+/* NAV */
+nav {
+  font-size: 18px;
+  box-shadow: 0px -3px 18px 0 rgb(190, 190, 190);
+}
+
+/* CARRUSEL */
+.mainCarousel {
+  border-top: solid 10px;
+  border-bottom: solid 10px;
+  color: black;
+}
+
+/* MAIN */
+/* CONTAINER HISTORIA */
+.tituloIndex {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.col-md-4 {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.tituloLorem {
+  background-color: rgb(249, 249, 249);
+  color: orangered;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.parrafoIndex {
+  padding: 30px 30px;
+  color: rgb(72, 72, 72);
+}
+
+#parrafoUno {
+  background-color: rgb(187, 187, 187);
+  height: 100%;
+}
+
+#parrafoDos {
+  background-color: rgb(203, 203, 203);
+  height: 100%;
+}
+
+#parrafoTres {
+  background-color: rgb(224, 224, 224);
+  height: 100%;
+}
+
+/* CONTAINER REDES */
+.containerRedes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+}
+
+.containerColRedes {
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+  align-items: center;
+  text-align: center;
+}
+
+.containerLogoRedes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logosRedes {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.checked {
+  color: orange;
+}
+
+.Puntaje {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* SUCURSAL RECOLETA*/
+.mapaRecoleta {
+  display: flex;
+  justify-content: center;
+}
+
+/* SUCURSAL NUÑEZ*/
+.mapaNuñez {
+  display: flex;
+  justify-content: center;
+}
+
+/* PRODUCTOS*/
+.item {
+  position: relative;
+  padding: 20px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item:hover .image {
+  opacity: 0.3;
+}
+
+.item:hover .middle {
+  opacity: 1;
+}
+
+.sectionProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuProductos {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Productos {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 5px solid black;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f85707;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.row:after {
+  gap: 10px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerClientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerYoutube {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideoYoutube {
+  border: solid 5px;
+  color: rgb(10, 10, 9);
+}
+
+.btn-primario {
+  background-color: black;
+}
+
+.btn-secundario {
+  background-color: orangered;
+}
+
+.btn-terciario {
+  background-color: white;
+}
+
+.btn-otros {
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */

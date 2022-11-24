@@ -1,0 +1,41 @@
+/* GENERAL */
+
+.tituloGeneral {
+    background-color: $primario;
+    color: $terciario;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+/* INDEX */
+
+.TituloIndex {
+    background-color: $primario;
+    color: $terciario;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tituloLorem {
+    margin: 5px;
+    padding: 5px;
+    background-color: $terciario;
+    color: $secundario;
+    border: solid $primario;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* PRODUCTOS*/
+
+.TablaTitulo {
+    border: solid $primario 5px;
+    color: $secundario;
+}
+

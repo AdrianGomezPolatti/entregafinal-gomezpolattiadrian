@@ -1,0 +1,86 @@
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+    .containerFooter {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .tituloLorem {
+        font-size: 20px;
+
+    }
+
+    .parrafoIndex {
+        font-size: 14px;
+    }
+
+    .seguinosRedesSociales {
+        flex-direction: column;
+        font-size: medium;
+    }
+
+    .TituloIndex {
+        font-size: 24px;
+    }
+
+
+    .text {
+        font-size: 16px
+    }
+
+    .tituloVideo {
+        background-color: $primario;
+        color: $terciario;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .VideoYoutube {
+        width: fit-content;
+        margin: auto;
+        align-items: center
+    }
+
+    .fotoClientePortada {
+        width: fit-content;
+        margin: auto;
+        align-items: center
+    }
+
+    .Puntaje {
+        width: fit-content;
+        margin: 5px;
+        align-items: center
+    }
+
+    header {
+        padding: 0;
+        }
+        
+        main {
+        padding: 0;
+        }
+
+    .tituloGeneral {
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+    .container-general {
+            
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+          }
+
+}

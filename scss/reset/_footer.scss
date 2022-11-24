@@ -1,0 +1,19 @@
+  /*CONTAINER FOOTER */
+  .containerFooter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: $primario;
+      color: $terciario;
+      text-align: center;
+      padding: 100px;
+  }
+
+  .containerFooter h5 {
+      padding: 10px;
+  }
+
+  #mail {
+      color: rgba(249, 66, 0, 0.887);
+  }

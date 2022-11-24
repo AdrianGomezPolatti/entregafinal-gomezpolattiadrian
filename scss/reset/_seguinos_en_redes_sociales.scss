@@ -1,0 +1,30 @@
+/* CONTAINER REDES */
+.containerRedes {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $secundario;
+    color: $terciario;
+    padding: 20px;
+
+}
+
+.containerColRedes {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+    align-items: center;
+    text-align: center;
+
+}
+
+.containerLogoRedes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.logosRedes {
+    color: $terciario;
+    font-size: 50px;
+    text-decoration: none;
+}

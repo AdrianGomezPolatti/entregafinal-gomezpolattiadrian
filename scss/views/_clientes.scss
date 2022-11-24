@@ -1,0 +1,18 @@
+.containerClientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.containerYoutube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.VideoYoutube {
+    border: solid 5px;
+    color: rgb(10, 10, 9);
+}

@@ -1,0 +1,62 @@
+/* HEADER */
+
+/* NAV */
+nav {
+  font-size: 18px;
+  box-shadow: 0px -3px 18px 0 rgb(190 190 190);
+}
+
+/* CARRUSEL */
+.mainCarousel {
+  border-top: solid 10px;
+  border-bottom: solid 10px;
+  color: $primario;
+}
+
+
+/* MAIN */
+
+/* CONTAINER HISTORIA */
+
+
+
+.tituloIndex {
+  background-color: rgb(21, 21, 21);
+  color: $terciario;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.col-md-4 {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.tituloLorem {
+  background-color: rgb(249, 249, 249);
+  color: $secundario;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.parrafoIndex {
+  padding: 30px 30px;
+  color: rgb(72, 72, 72);
+}
+
+#parrafoUno {
+  background-color: rgb(187, 187, 187);
+  height: 100%;
+}
+
+#parrafoDos {
+  background-color: rgb(203, 203, 203);
+  height: 100%;
+}
+
+#parrafoTres {
+  background-color: rgb(224, 224, 224);
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+.checked {
+  color: orange;
+}
+
+.Puntaje {
+
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* SUCURSAL RECOLETA*/
+
+.mapaRecoleta {
+  display: flex;
+  justify-content: center;
+}
+
+/* SUCURSAL NUÑEZ*/
+.mapaNuñez {
+  display: flex;
+  justify-content: center;
+}
